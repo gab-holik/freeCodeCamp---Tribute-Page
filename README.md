@@ -13,8 +13,3 @@ Figure 2: Taylor Hawkins Tribute Page Preview 2
 
 
 
-<img width="389" alt="Screenshot 2024-01-12 214756" src="https://github.com/gab-holik/freeCodeCamp---Tribute-Page/assets/97192580/2af54620-efba-4658-8798-40376162f84d">
-Figure 3: Taylor Hawkins Tribute Page IPad Preview 3
-
-
-
