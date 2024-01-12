@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h1,
+h2,
+h4 {
+  text-transform: capitalize;
+}
+h1,
+h2 {
+  color: #f0c257;
+  font-family: "Fugaz One", sans-serif;
+}
+h1 {
+  font-size: 5em;
+}
+h2 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  font-style: italic;
+}
+h4 {
+  color: #da6a72;
+  font-size: 1.3em;
+  padding: 1em 0;
+}
+.header-container {
+  background-image: url(images/background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  height: 75vh;
+  justify-content: center;
+  margin-left: 10em;
+}
+.tribute-info {
+  align-items: center;
+  background-color: #e8e8e8;
+  color: #000;
+  display: flex;
+  gap: 5em;
+  justify-content: center;
+  padding: 2em;
+  width: 100%;
+}
+div img {
+  border: 10px solid #f0eddc;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px #727272;
+  width: 28em;
+}
+figcaption {
+  margin: 6px;
+}
+.bio {
+  text-align: justify;
+  width: 35em;
+}
+.bold {
+  font-weight: 800;
+}
+ul li {
+  margin-top: 5px;
+}
+
+footer a {
+  color: #da6a72;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  padding: 2em;
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  .header-container {
+    height: 30vh;
+    margin-left: 3em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  div img {
+    width: 20em;
+  }
+  .tribute-info {
+    gap: 2em;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  h1 {
+    font-size: 1.3em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  .header-container {
+    height: 50vh;
+    gap: 1em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  .header-container {
+    height: 20vh;
+    gap: 1em;
+    margin-left: 2em;
+  }
+  h3 {
+    font-size: 0.5em;
+  }
+  .tribute-info {
+    flex-direction: column;
+    font-size: 0.75em;
+  }
+  .bio {
+    width: 100%;
+  }
+  img {
+    margin-left: 1.5em;
+  }
+}
